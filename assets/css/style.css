@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: white;
+}
+
+#logo {
+    width: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#search-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.recipe-search {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
